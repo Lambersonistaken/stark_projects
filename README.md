@@ -18,7 +18,7 @@ A project management application built with Django REST Framework and React. Thi
 - **Backend**: Django, Django REST Framework
 - **Frontend**: React, Material-UI
 - **Authentication**: Keycloak
-- **Database**: SQLite3
+- **Database**: PostgreSQL
 
 ## How to Run
 
@@ -78,7 +78,7 @@ The application should now be running at:
    - Username: admin
    - Password: admin
 
-2. Create a new client in Keycloak:
+2. Create a new client in Keycloak master Realm:
    - Client ID: stark-frontend
    - Client Protocol: openid-connect
    - Access Type: public
