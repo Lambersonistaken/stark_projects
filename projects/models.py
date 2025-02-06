@@ -1,3 +1,4 @@
+# Bu kod, Django'nun ORM (Object-Relational Mapping) sistemini kullanarak veritabanında üç farklı tablo (model) oluşturuyor:
 from django.db import models
 
 class Project(models.Model):
